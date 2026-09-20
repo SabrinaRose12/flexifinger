@@ -1,0 +1,52 @@
+name: mobile
+description: FlexiFinger Mobile App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  http: ^1.1.0
+  intl: ^0.19.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.2.2
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/images/logowhite.png
+    - assets/images/display1.png
+    - assets/images/display2.png
+    - assets/images/display3.png
+    - assets/images/display4.png
+    - assets/videos/fingerabduction.mp4
+    - assets/videos/fingertaps.mp4
+    - assets/videos/middlejoint.mp4
+    - assets/videos/knucklebend.mp4
+    - assets/videos/thumbflexion.mp4
+    - assets/videos/thumblittlefinger.mp4
+    - assets/videos/thumbflexionfinger.mp4
+    - assets/icon/app_icon.png
+
+  uses-material-design: true
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"

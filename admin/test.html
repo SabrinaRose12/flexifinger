@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finger Tracking Simulator</title>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+</head>
+<body style="background: #1a1a2e; color: white; font-family: sans-serif; text-align: center;">
+  <h2>Finger Exercise Tracker</h2>
+  <div style="position: relative; display: inline-block;">
+    <video id="input_video" style="display:none;"></video>
+    <canvas id="output_canvas" width="640" height="480" style="border-radius: 15px; border: 3px solid #e94560;"></canvas>
+    
+    <div style="position: absolute; top: 20px; left: 20px; background: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px; text-align: left;">
+      <div style="font-size: 24px; color: #00d2ff;">Sudut: <span id="angle_val">0</span>°</div>
+      <div style="font-size: 32px; color: #ff007f;">Reps: <span id="rep_count">0</span></div>
+    </div>
+  </div>
+
+  <script>
+    const videoElement = document.getElementById('input_video');
+    const canvasElement = document.getElementById('output_canvas');
+    const canvasCtx = canvasElement.getContext('2d');
+    const angleDisp = document.getElementById('angle_val');
+    const repDisp = document.getElementById('rep_count');
+
+    let count = 0;
+    let isExtended = true;
+
+    function findAngle(p1, p2, p3) {
+      let angle = Math.abs((Math.atan2(p3.y - p2.y, p3.x - p2.x) - Math.atan2(p1.y - p2.y, p1.x - p2.x)) * 180 / Math.PI);
+      return angle > 180 ? 360 - angle : angle;
+    }
+
+    function onResults(results) {
+      canvasCtx.save();
+      canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+      canvasCtx.drawImage(results.image, 0, 0, canvasElement.width, canvasElement.height);
+
+      if (results.multiHandLandmarks) {
+        for (const landmarks of results.multiHandLandmarks) {
+          drawConnectors(canvasCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 5});
+          drawLandmarks(canvasCtx, landmarks, {color: '#FF0000', lineWidth: 2});
+
+          // Logic untuk Jari Telunjuk (Point 5, 6, 8)
+          const angle = findAngle(landmarks[5], landmarks[6], landmarks[8]);
+          angleDisp.innerText = angle.toFixed(1);
+
+          // Counter logic
+          if (isExtended && angle < 100) {
+            isExtended = false;
+          } else if (!isExtended && angle > 150) {
+            count++;
+            repDisp.innerText = count;
+            isExtended = true;
+          }
+        }
+      }
+      canvasCtx.restore();
+    }
+
+    const hands = new Hands({locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`});
+    hands.setOptions({ maxNumHands: 1, modelComplexity: 1, minDetectionConfidence: 0.5, minTrackingConfidence: 0.5 });
+    hands.onResults(onResults);
+
+    const camera = new Camera(videoElement, {
+      onFrame: async () => { await hands.send({image: input_video}); },
+      width: 640, height: 480
+    });
+    camera.start();
+  </script>
+</body>
+</html>

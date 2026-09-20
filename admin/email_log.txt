@@ -1,0 +1,418 @@
+TIME: 2026-02-21 01:39:24
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>092840</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-02-21 01:39:42
+TO: admin@flexifinger.com
+SUBJECT: Your New FEMMS Password Reset OTP
+MESSAGE: 
+            <html>
+            <body>
+                <h2>FEMMS Password Reset</h2>
+                <p>Hello <strong>System Administrator</strong>,</p>
+                <p>Your new OTP code is:</p>
+                <h1 style='color: #667eea; font-size: 36px;'>542944</h1>
+                <p>Valid for 15 minutes</p>
+                <p>If you didn't request this, please ignore.</p>
+            </body>
+            </html>
+            
+------------------------
+
+TIME: 2026-04-16 10:24:05
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>570916</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-04-16 10:39:56
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>585337</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-04-16 10:40:59
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>905617</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-04-16 10:41:45
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>895228</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-04-18 18:25:50
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>055134</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-04-18 18:25:56
+TO: admin@flexifinger.com
+SUBJECT: Your New FEMMS Password Reset OTP
+MESSAGE: 
+            <html>
+            <body>
+                <h2>FEMMS Password Reset</h2>
+                <p>Hello <strong>System Administrator</strong>,</p>
+                <p>Your new OTP code is:</p>
+                <h1 style='color: #667eea; font-size: 36px;'>920675</h1>
+                <p>Valid for 15 minutes</p>
+                <p>If you didn't request this, please ignore.</p>
+            </body>
+            </html>
+            
+------------------------
+
+TIME: 2026-04-22 22:32:25
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>892586</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
+TIME: 2026-05-13 20:45:52
+TO: admin@flexifinger.com
+SUBJECT: Your FEMMS Password Reset OTP
+MESSAGE: 
+                <html>
+                <head>
+                    <style>
+                        body { font-family: Arial, sans-serif; line-height: 1.6; }
+                        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; text-align: center; }
+                        .content { padding: 30px; background: #f9f9f9; }
+                        .otp-box { background: white; border: 2px solid #667eea; padding: 20px; text-align: center; margin: 20px 0; }
+                        .otp-code { font-size: 36px; font-weight: bold; color: #667eea; letter-spacing: 5px; }
+                        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+                        .warning { color: #dc3545; font-size: 13px; }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h2>FEMMS Password Reset</h2>
+                        </div>
+                        <div class='content'>
+                            <p>Hello <strong>System Administrator</strong>,</p>
+                            <p>We received a request to reset your password for your FEMMS admin account.</p>
+                            
+                            <div class='otp-box'>
+                                <p>Your OTP Code is:</p>
+                                <div class='otp-code'>026492</div>
+                                <p>Valid for 15 minutes</p>
+                            </div>
+                            
+                            <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
+                            
+                            <p class='warning'><strong>⚠️ For security reasons, never share this OTP with anyone.</strong></p>
+                            
+                            <p>Best regards,<br>FEMMS System Team</p>
+                        </div>
+                        <div class='footer'>
+                            <p>This is an automated message, please do not reply to this email.</p>
+                            <p>&copy; 2026 FEMMS - Finger Exercise Monitoring System</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+------------------------
+
